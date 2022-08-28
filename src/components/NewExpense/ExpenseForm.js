@@ -7,7 +7,6 @@ const ExpenseForm = (props) => {
   const [enteredDate, setEnteredDate] = useState('');
 
   const titleChangeHandler = (e) => {
-    //empty string cos at first load the fields are empty
     setEnteredTitle(e.target.value);
   };
 

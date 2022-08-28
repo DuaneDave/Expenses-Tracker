@@ -39,6 +39,4 @@ function App() {
   );
 }
 
-//accessing the arrays inside of the component will not work becuse its not relating with the Expenseitem component
-
 export default App;
